@@ -1,18 +1,5 @@
-import math
-import os
+from menu import *
 
-def mult(a,b) -> int:
-    return math.floor(a * b)
+if __name__ == '__main__':
+    menu()
 
-
-def add(a, b) -> int:
-    return math.floor(b + a)
-
-
-def to_sentence(s) -> str:
-    s = s.capitalize()
-
-    if s.endswith('.'):
-        return s
-    else:
-        return s + '.'
