@@ -1,3 +1,4 @@
+#responsável por fazer o "meio de campo" entre o módulo do grupo 1 e a aplicação.
 from trie import *
 
 __all__ = ['wordInArq', 'insereArvore','verificaPrefixo','procuraArv','clear','palavraAleatoria']
