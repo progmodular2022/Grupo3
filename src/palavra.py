@@ -1,3 +1,4 @@
+#responsável pela palavra que será formada no jogo.
 __all__ = ['getPalavraFormada','setPalavraFormada','adicionaCaracter','removeUltimoCaracter']
 
 palavraFormada = ""
