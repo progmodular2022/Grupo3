@@ -1,3 +1,4 @@
+#o menu chama o jogo (game.py)
 from game import *
 
 #globais estaticas dos botoes do menu
