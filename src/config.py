@@ -1,3 +1,4 @@
+#coisas em comuns a diversos módulos
 import pygame as pg
 pg.init()
 #cores
