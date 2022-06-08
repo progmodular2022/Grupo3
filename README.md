@@ -9,6 +9,8 @@ O jogo está dividido por "contextos", sendo eles "frutas", "animais" e "fixo", 
 
 Para selecionar uma letra é necessário clicar em cima da mesma, e para "desselecionar" é possível tanto clicar novamente em cima da última letra marcada, ou clicar no botão "limpar" que irá desfazer todas as seleções de uma única vez.
 
+Para "voltar de tela" pressione ESC.
+
 ### Estrutura de arquivos
 
 * Os arquivos da aplicação se encontram na pasta `src/`, e os testes em `test/`. 
