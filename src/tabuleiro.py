@@ -1,3 +1,4 @@
+#gera o tabuleiro que será usado no jogo
 import string
 import random
 from arv import *
