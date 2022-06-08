@@ -1,3 +1,4 @@
+#é chamado por menu.py
 import sys
 from tabuleiro import *
 from palavra import *
