@@ -1,16 +1,17 @@
-# Repositório para testes automatizados em python usando github actions
+# Jogo das palavras - Grupo 3
 
-Baseado em na template de [programmingwithalex](https://github.com/programmingwithalex)
-Vindo seguinte vídeo [YouTube video](https://www.youtube.com/watch?v=rY-igT2N8zU&list=PL0dOL8Z7pG3J6t1pqRQiNarBGY-ZnIJcq&index=2).
+É necessário que o pygame esteja instalado para rodar a aplicação. É possível instalar utilizando o gerenciador de pacotes pip com o seguinte comando: `pip install pygame`
 
 ## Descrição
-Repositório para integração contínua através de testes automatizados em Python
+O objetivo do jogo é formar palavras clicando nas letras presentes na tela. Caso a sua palavra formada seja válida a cor da palavra mudará para verde. Caso a palavra que você esteja tentando formar não seja válida, a cor da palavra mudará para vermelha.
 
-O linting is é feito usando um GitHub Action customizado [`pylinters`](https://github.com/marketplace/actions/pylinters) escrito por programmingwithalex. 
-Os testes são feito pelo pytest.
+O jogo está dividido por "contextos", sendo eles "frutas", "animais" e "fixo", para frutas e animais é utilizado uma lista de palavras específicas para cada caso. Uma lista contendo as possíveis frutas a serem formadas no jogo está presente em src/frutas.txt, e para animais src/animais.txt. As listas são extensas para tentar cobrir a maior quantidade de frutas e animais possíveis, porém é possível que alguma palavra "exótica" não possa ser formada no jogo. A aplicação garante que pelo menos uma palavra da lista de palavras estará presente no tabuleiro do jogo. Já o "fixo" possui uma palavra fixa que estará presente sempre, sendo neste caso a palavra "lixeira".
 
-## Conteúdo
+Para selecionar uma letra é necessário clicar em cima da mesma, e para "desselecionar" é possível tanto clicar novamente em cima da última letra marcada, ou clicar no botão "limpar" que irá desfazer todas as seleções de uma única vez.
 
-* Arquivos `main.py` e `test_main.py` que servem como exemplo para como rodar os testes automatizados
-* Diretório `tests/` contém as várias runs de `pytest` que serão rodadas, uma para cada arquivo `.py` que será testado
-* `requirements.txt` que contém os packages necessários para a integração contínua
+### Estrutura de arquivos
+
+* Os arquivos da aplicação se encontram na pasta `src/`, e os testes em `test/`. 
+
+Para rodar o jogo execute o arquivo `main.py`
+
